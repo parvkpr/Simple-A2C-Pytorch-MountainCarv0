@@ -18,8 +18,8 @@ parser.add_argument('--gamma', type=float, default=0.99, metavar='G',
                     help='discount factor (default: 0.99)')
 parser.add_argument('--num_episodes', type=int, default=1000, metavar='NU',
                     help='num_epsiodes (default: 1000)')
-parser.add_argument('--seed', type=int, default=543, metavar='N',
-                    help='random seed (default: 543)')
+parser.add_argument('--seed', type=int, default=679, metavar='N',
+                    help='random seed (default: 679)')
 parser.add_argument('--log-interval', type=int, default=10, metavar='N',
                     help='interval between training status logs (default: 10)')
 args = parser.parse_args()
