@@ -1,4 +1,4 @@
-# Mountain_Car-Simple-A2C-using-Pytorch
+# Simple-A2C-using-Pytorch-MountainCarv0
 ## This implementation is supposed to serve as a beginner solution to the classic Mountain-car with discrete action space problem. 
 - This file uses Advantage Actor critic algorithm with epsilon greedy exploration strategies. It doesn't need any open AI baseline knowledge and can be implemented using knowledge of DRL, OpenAI environment API and Pytorch. 
 - The program uses a single neural network which eventually diverges into two separate heads for Actor and Critic outputs.
