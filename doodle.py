@@ -90,9 +90,9 @@ def perform_updates():
     policy_losses = []
     critic_losses = []
 
-    for i in rewards:
+    for i in rewards[::-1]:
         r = args.gamma*r + i
-        returns.append(r)
+        returns.insert(0, r)
     returns = torch.tensor(returns)
 
     for (log_prob, value), R in zip(saved_actions, returns):
